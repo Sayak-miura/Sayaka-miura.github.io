@@ -1,0 +1,91 @@
+body {
+    padding-top: 75px;
+}
+
+h2 {
+    font-size: 120%;
+    border-bottom: solid 2px #444444;
+    color: #745030;
+    margin: 25px 0px;
+}
+
+h3 {
+    font-size: 100%;
+    color: #745030;
+}
+
+p,
+a {
+    font-size: 90%;
+}
+
+.p_indent {
+    text-indent: 1em;
+}
+
+a,
+a:link {
+    color: #000000;
+}
+
+.list-group-item {
+    border: dashed 1px #cccccc;
+}
+
+.list-group-item:first-child {
+    border-top: none;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.header-menu {
+    border-left: solid 1px;
+}
+
+.icon {
+    vertical-align: -1px;
+    margin-right: 6px;
+}
+
+.arrow {
+    vertical-align: 0.5px;
+    margin-right: 6px;
+}
+
+.carousel-indicators .active {
+    background-color: #b8d200;
+}
+
+@media (max-width: 767px) {
+    body {
+        padding-top: 60px;
+    }
+    .logo {
+        width: 150px;
+    }
+    .hanburger {
+        margin-top: -40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-nav .nav-item {
+        border-left: solid 1px #cccccc;
+    }
+    .navbar-nav .nav-item:first-child {
+        border-left: none;
+    }
+    .nav-link {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .footer-nav {
+    border-right: 1px solid #cccccc;
+        padding: 0 15px 0 15px;
+    }
+  .footer-nav:last-child {
+    border: none;
+  }
+}
